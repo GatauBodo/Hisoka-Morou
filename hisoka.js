@@ -1040,13 +1040,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Instagram',
+                                    url: 'https://instagram.com/irhamibra/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 856-0151-7617'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1060,8 +1060,8 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'Instagram me',
+                                    id: 'igme'
                                 }
                             }]
                       fatihgans = fs.readFileSync('./lib/hisoka.jpg')
@@ -1080,13 +1080,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Instagram',
+                                    url: 'https://instagram.com/irhamibra/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 856-0151-7617'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1100,8 +1100,8 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'Instagram me',
+                                    id: 'igme'
                                 }
                             }]
                       fatihgans = fs.readFileSync('./lib/hisoka.jpg')
