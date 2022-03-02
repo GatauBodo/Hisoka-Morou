@@ -496,11 +496,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6288292024190 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://www.paypal.me/Cakhaho\n⭔ Saweria : https://saweria.co/DikaArdnt` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://raw.githubusercontent.com/irham01/HOHO/main/menus/dana.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana/Shopeepay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6285601517617 (Owner)` }, { quoted: m })
             }
             break
-            case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : 6281615075793 (Link Aja)\nSaweria : https://saweria.co/DikaArdnt\nPaypal : https://www.paypal.me/Cakhaho\n\n Dont Forget Donate')
+            case 'igme': {
+                m.reply('Script : https://instagram.com/irhamibra/\n\n Dont Forget Give Star\n\nDonate : 6285601517617 (Dana / Shopeepay)\n\n Dont Forget Donate')
             }
             break
             case 'chat': {
@@ -2661,13 +2661,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Instagram',
+                                    url: 'https://instagram.com/irhamibra/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 856-0151-7617'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2681,8 +2681,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'Instagram me',
+                                    id: 'igme'
                                 }
                             }]
                         }
